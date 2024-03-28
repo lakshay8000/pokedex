@@ -1,0 +1,27 @@
+.pokemon {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 2px 2px grey;
+}
+
+.pokemon:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in-out;
+}
+
+.pokemon-title {
+    font-size: 1.25rem;
+    font-weight: 500;
+    border-bottom: 1px solid grey;
+}
+
+.pokemon-image-wrapper {
+    width: 100%;
+}
+
+.pokemon-image-wrapper img {
+    max-width: 100%;
+    max-height: 100%;
+}

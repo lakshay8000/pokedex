@@ -1,0 +1,22 @@
+.pokemon-details-wrapper {
+    border: 1px solid white;
+    padding: 1rem;
+    border-radius: 10px;
+    padding: 2rem 1rem;
+    background-color: black;
+}
+
+.pokemon-details-img img {
+    width: 100%;
+}
+
+.pokemon-details {
+    font-size: 1.25rem;
+    letter-spacing: .25rem;
+    color: white;
+}
+
+.pokemon-details div {
+    border-bottom: 1px solid grey;
+    padding: .25rem;
+}
