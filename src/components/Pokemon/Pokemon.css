@@ -3,6 +3,7 @@
     border-radius: 10px;
     padding: 1rem;
     box-shadow: 2px 2px grey;
+    width: 15rem;
 }
 
 .pokemon:hover {

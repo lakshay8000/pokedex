@@ -1,4 +1,3 @@
-import Navbar from "../../components/Navbar/navbar";
 import Pokemon from "../../components/Pokemon/Pokemon";
 
 import { useState, useEffect } from "react";
@@ -33,10 +32,9 @@ function Homepage() {
 
 
     return (
-        <div className="pokedex-app-wrapper">
-            <Navbar />
+        <div className="homepage-wrapper">
 
-            <div className="pokemons-list d-flex justify-content-evenly flex-wrap flex-row gap-5 ms-5 me-5">
+            <div className="pokemons-list d-flex justify-content-evenly flex-wrap flex-row gap-5 ms-5 me-5 mb-5">
                 {
                     pokemonList.length != 0 && 
                     pokemonList.map((pokemon) => <Pokemon 

@@ -42,7 +42,9 @@ function Navbar() {
                 type= "text"
                 placeholder= "Which Pokemon are you looking for?"
                 onChange= {(e) => debouncedCallback(e)}
+                spellCheck= {false}
             />
+
             {searchError && <div className= "error-text"> Pokemon not found </div>}
         </div>
     );
