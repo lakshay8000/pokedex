@@ -13,11 +13,11 @@ function Navbar() {
 
     async function fetchSearchResult() {
         try {
-            const response= await axios.get(`https://pokeapi.co/api/v2/pokemon/${searchText}`);
+            const response= await axios.get(`https://pokeapi.co/api/v2/pokemon/${searchText.toLowerCase()}`);
             
             setSearchError(false);
             if (searchText != "") {
-                navigate(`/pokemon/${searchText}`);
+                navigate(`/pokemon/${searchText.toLowerCase()}`);
             }
         }
         catch (error) {
