@@ -31,3 +31,8 @@ To run this project locally, follow these steps:
 2. Install dependencies using `npm install`.
 3. Start the development server locally using `npm run dev` (built with Vite).
 4. Start searching for your favorite pokemons and enjoy exploring!
+
+
+## License:
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
